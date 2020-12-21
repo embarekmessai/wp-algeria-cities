@@ -1,0 +1,15 @@
+<?php
+/**
+ * Plugin Name: Algerian Cities and States for Woocommerce
+ * Plugin URI: https://github.com/embarekmessai/wp-algeria-cities
+ * Description: Woocommerce plugin for listing states and cities in Algeria.
+ * Version: 1.0.0
+ * Author: Embarek MESSAI
+ * Author URI: http://ultimatemarkettechnology.dz/
+ * Developer: Embarek MESSAI
+ * Developer URI: http://ultimatemarkettechnology.dz/
+ * Text Domain: woocommerce-extension
+ * License: GPLv3 or later
+ * License URI: https://www.gnu.org/licenses/gpl-3.0.html
+ */
+ 
