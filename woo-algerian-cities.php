@@ -41,7 +41,7 @@ if(in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_o
 		 */
 		public function init() {
 			$this->init_states();
-			$this-> init_cities();
+			$this->init_cities();
 		}
 
 		/**
