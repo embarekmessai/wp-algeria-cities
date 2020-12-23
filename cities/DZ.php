@@ -7,9 +7,9 @@
  * @license http://opensource.org/licenses/gpl-license.php GNU Public License
  */
 
-global $citie;
+global $cities;
 
-$citie['DZ'] = array(
+$cities['DZ'] = array(
     "ADR" => array(
         "Adrar",
         "Bouda",
