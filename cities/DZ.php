@@ -10,7 +10,7 @@
 global $cities;
 
 $cities['DZ'] = array(
-    "ADR" => array(
+    "DZ-01" => array(
         "Adrar",
         "Bouda",
         "Ouled Ahmed Timmi",
@@ -41,7 +41,7 @@ $cities['DZ'] = array(
         "Zaouiet Kounta"
     ),
 
-    "CHL" => array(
+    "DZ-02" => array(
         "Abou El Hassane",
         "Tadjena",
         "Talassa",
@@ -79,7 +79,7 @@ $cities['DZ'] = array(
         "Zeboudja"
     ),
 
-    "LAG" => array(
+    "DZ-03" => array(
         "Aflou",
         "Sebgag",
         "Sidi Bouzid",
@@ -106,7 +106,7 @@ $cities['DZ'] = array(
         "Sidi Makhlouf"
     ),
 
-    "OMB" => array(
+    "DZ-04" => array(
         "Ain Babouche",
         "Ain Diss",
         "Ain Beida",
@@ -138,7 +138,7 @@ $cities['DZ'] = array(
         "Souk Naamane"
     ),
     
-    "BTN" => array(
+    "DZ-05" => array(
         "Ain Djasser",
         "El Hassi",
         "Ain Touta",
@@ -202,7 +202,7 @@ $cities['DZ'] = array(
         "T Kout"
     ),
 
-    "BJA" => array(
+    "DZ-06" => array(
         "Adekar",
         "Beni K'sila",
         "Taourit Ighil",
@@ -257,7 +257,7 @@ $cities['DZ'] = array(
         "Timezrit"
     ),
 
-    "BSK" => array(
+    "DZ-07" => array(
         "Biskra",
         "El Hadjab",
         "Branis",
@@ -293,7 +293,7 @@ $cities['DZ'] = array(
         "Zeribet El Oued"
     ),
 
-    "BCH" => array(
+    "DZ-08" => array(
         "Abadla",
         "Erg-Ferradj",
         "Machraa-Houari-Boumediene",
@@ -317,7 +317,7 @@ $cities['DZ'] = array(
         "Taghit"
     ),
 
-    "BLD" => array(
+    "DZ-09" => array(
         "Blida",
         "Bouarfa",
         "Boufarik",
@@ -345,7 +345,7 @@ $cities['DZ'] = array(
         "Ouled Yaich"
     ),
 
-    "BRA" => array(
+    "DZ-10" => array(
         "Ain El Hadjar",
         "Ain Laloui",
         "Ain-Bessem",
@@ -393,7 +393,7 @@ $cities['DZ'] = array(
         "Sour El Ghozlane"
     ),
 
-    "TAM" => array(
+    "DZ-11" => array(
         "Inghar",
         "Ain Guezzam",
         "Ain Salah",
@@ -406,7 +406,7 @@ $cities['DZ'] = array(
         "Tin Zouatine"
     ),
 
-    "TBS" => array(
+    "DZ-12" => array(
         "Bir-El-Ater",
         "El Ogla El Malha",
         "Bir Mokkadem",
@@ -437,7 +437,7 @@ $cities['DZ'] = array(
         "Tebessa"
     ),
 
-    "TLM" => array(
+    "DZ-13" => array(
         "Ain Nehala",
         "Ain Tellout",
         "Bab El Assa",
@@ -493,7 +493,7 @@ $cities['DZ'] = array(
         "Tlemcen"
     ),
 
-    "TIR" => array(
+    "DZ-14" => array(
         "Ain Deheb",
         "Chehaima",
         "Naima",
@@ -538,7 +538,7 @@ $cities['DZ'] = array(
         "Tiaret"
     ),
 
-    "TIZ" => array(
+    "DZ-15" => array(
         "Abi-Youcef",
         "Ain-El-Hammam",
         "Ait-Yahia",
@@ -608,7 +608,7 @@ $cities['DZ'] = array(
         "Tizi-Gheniff"
     ),
 
-    "ALG" => array(
+    "DZ-16" => array(
         "Bab El Oued",
         "Bologhine Ibnou Ziri",
         "Casbah",
@@ -668,7 +668,7 @@ $cities['DZ'] = array(
         "Zeralda"
     ),
 
-    "DJL" => array(
+    "DZ-17" => array(
         "Ain El Ibel",
         "Moudjebara",
         "Taadmit",
@@ -707,7 +707,7 @@ $cities['DZ'] = array(
         "Sidi Laadjel"
     ),
 
-    "JIJ" => array(
+    "DZ-18" => array(
         "Bordj T'har",
         "Chekfa",
         "El Kennar Nouchfi",
@@ -738,7 +738,7 @@ $cities['DZ'] = array(
         "Ziama Mansouriah"
     ),
 
-    "SET" => array(
+    "DZ-19" => array(
         "Ain Abessa",
         "Ain Arnat",
         "El Ouricia",
@@ -801,7 +801,7 @@ $cities['DZ'] = array(
         "Setif"
     ),
 
-    "SAI" => array(
+    "DZ-20" => array(
         "Ain El Hadjar",
         "Moulay Larbi",
         "Sidi Ahmed",
@@ -820,7 +820,7 @@ $cities['DZ'] = array(
         "Youb"
     ),
 
-    "SKI" => array(
+    "DZ-21" => array(
         "Ain Kechra",
         "Ouldja Boulbalout",
         "Ain Charchar",
@@ -861,7 +861,7 @@ $cities['DZ'] = array(
         "Zitouna",
     ),
 
-    "SBA" => array(
+    "DZ-22" => array(
         "Ain El Berd",
         "Makedra",
         "Sidi Brahim",
@@ -916,7 +916,7 @@ $cities['DZ'] = array(
         "Tessala"
     ),
 
-    "ANB" => array(
+    "DZ-23" => array(
         "Ain El Berda",
         "Cheurfa",
         "El Eulma",
@@ -931,7 +931,7 @@ $cities['DZ'] = array(
         "Sidi Amar"
     ),
 
-    "GUE" => array(
+    "DZ-24" => array(
         "Medjez Amar",
         "Houari Boumedienne",
         "Ras El Agba",
@@ -968,7 +968,7 @@ $cities['DZ'] = array(
         "Oued Zenati"
     ),
 
-    "CON" => array(
+    "DZ-25" => array(
         "Ain Abid",
         "Ben Badis",
         "Constantine",
@@ -983,7 +983,7 @@ $cities['DZ'] = array(
         "Zighoud Youcef"
     ),
 
-    "MED" => array(
+    "DZ-26" => array(
         "Ain Boucif",
         "El Ouinet",
         "Kef Lakhdar",
@@ -1050,7 +1050,7 @@ $cities['DZ'] = array(
         "Tablat"
     ),
 
-    "MOS" => array(
+    "DZ-27" => array(
         "Achaacha",
         "Khadra",
         "Nekmaria",
@@ -1085,7 +1085,7 @@ $cities['DZ'] = array(
         "Sidi-Lakhdar"
     ),
 
-    "MSI" => array(
+    "DZ-28" => array(
         "Ain El Hadjel",
         "Sidi Hadjeres",
         "Ain El Melh",
@@ -1135,7 +1135,7 @@ $cities['DZ'] = array(
         "Tamsa"
     ),
 
-    "MAS" => array(
+    "DZ-29" => array(
         "Ain Fares",
         "El Mamounia",
         "Ain Fekan",
@@ -1185,7 +1185,7 @@ $cities['DZ'] = array(
         "Zahana"
     ),
 
-    "OUR" => array(
+    "DZ-30" => array(
         "El Borma",
         "El Alia",
         "El-Hadjira",
@@ -1209,7 +1209,7 @@ $cities['DZ'] = array(
         "Zaouia El Abidia"
     ),
 
-    "ORA" => array(
+    "DZ-31" => array(
         "Ain Turk",
         "Bousfer",
         "El Ancor",
@@ -1238,7 +1238,7 @@ $cities['DZ'] = array(
         "Tafraoui"
     ),
 
-    "ELB" => array(
+    "DZ-32" => array(
         "Arbaouat",
         "Brezina",
         "Cheguig",
@@ -1257,7 +1257,7 @@ $cities['DZ'] = array(
         "Sidi Tiffour"
     ),
 
-    "ILZ" => array(
+    "DZ-33" => array(
         "Bordj El Haouass",
         "Djanet",
         "Illizi",
@@ -1266,7 +1266,7 @@ $cities['DZ'] = array(
         "In Amenas"
     ),
 
-    "BBA" => array(
+    "DZ-34" => array(
         "Ain Taghrout",
         "Tixter",
         "Bir Kasdali",
@@ -1303,7 +1303,7 @@ $cities['DZ'] = array(
         "Ras El Oued"
     ),
 
-    "BOM" => array(
+    "DZ-35" => array(
         "Baghlia",
         "Sidi Daoud",
         "Taourga",
@@ -1338,7 +1338,7 @@ $cities['DZ'] = array(
         "Thenia"
     ),
 
-    "ETR" => array(
+    "DZ-36" => array(
         "Ben M Hidi",
         "Berrihane",
         "Echatt",
@@ -1365,12 +1365,12 @@ $cities['DZ'] = array(
         "Zitouna"
     ),
 
-    "TIN" => array(
+    "DZ-37" => array(
         "Oum El Assel",
         "Tindouf"
     ),
 
-    "TIS" => array(
+    "DZ-38" => array(
         "Ammari",
         "Maacem",
         "Sidi Abed",
@@ -1395,7 +1395,7 @@ $cities['DZ'] = array(
         "Tissemsilt"
     ),
 
-    "ELO" => array(
+    "DZ-39" => array(
         "Bayadha",
         "Debila",
         "Hassani Abdelkrim",
@@ -1428,7 +1428,7 @@ $cities['DZ'] = array(
         "Taleb Larbi"
     ),
 
-    "KHE" => array(
+    "DZ-40" => array(
         "Ain Touila",
         "M'toussa",
         "Babar",
@@ -1452,7 +1452,7 @@ $cities['DZ'] = array(
         "Ouled Rechache"
     ),
 
-    "SOK" => array(
+    "DZ-41" => array(
         "Bir Bouhouche",
         "Safel El Ouiden",
         "Zouabi",
@@ -1481,7 +1481,7 @@ $cities['DZ'] = array(
         "Zaarouria"
     ),
 
-    "TIP" => array(
+    "DZ-42" => array(
         "Ahmer El Ain",
         "Bourkika",
         "Sidi Rached",
@@ -1512,7 +1512,7 @@ $cities['DZ'] = array(
         "Tipaza"
     ),
 
-    "MIL" => array(
+    "DZ-43" => array(
         "Ain Beida Harriche",
         "El Ayadi Barbes",
         "Bouhatem",
@@ -1547,7 +1547,7 @@ $cities['DZ'] = array(
         "Tassala Lematai"
     ),
 
-    "ADF" => array(
+    "DZ-44" => array(
         "Ain-Defla",
         "Ain-Lechiakh",
         "Ain-Soltane",
@@ -1586,7 +1586,7 @@ $cities['DZ'] = array(
         "Zeddine",
     ),
 
-    "NAM" => array(
+    "DZ-45" => array(
         "Ain Sefra",
         "Tiout",
         "Asla",
@@ -1601,7 +1601,7 @@ $cities['DZ'] = array(
         "Sfissifa"
     ),
 
-    "ATE" => array(
+    "DZ-46" => array(
         "Aghlal",
         "Ain Kihal",
         "Ain Tolba",
@@ -1632,7 +1632,7 @@ $cities['DZ'] = array(
         "Sidi Ouriache"
     ),
 
-    "GHA" => array(
+    "DZ-47" => array(
         "Berriane",
         "Bounoura",
         "El Atteuf",
@@ -1648,7 +1648,7 @@ $cities['DZ'] = array(
         "Zelfana"
     ),
 
-    "REL" => array(
+    "DZ-48" => array(
         "Ain-Tarek",
         "Had Echkalla",
         "Ammi Moussa",
