@@ -107,7 +107,7 @@ if(in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_o
 		}
 
 		/**
-		 * Implement places/city field
+		 * Implement cities/city field
 		 * @param mixed $field
 		 * @param string $key
 		 * @param mixed $args
@@ -159,8 +159,8 @@ if(in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_o
 			$state_key = $key == 'billing_city' ? 'billing_state' : 'shipping_state';
 			$current_sc  = WC()->checkout->get_value( $state_key );
 
-			// Get country places
-			$cities = $this->get_places( $current_cc );
+			// Get country cities
+			$cities = $this->get_cities( $current_cc );
 
 			if ( is_array( $cities ) ) {
 
@@ -169,15 +169,15 @@ if(in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_o
 				$field .= '<option value="">'. __( 'Select an option&hellip;', 'woocommerce' ) .'</option>';
 
 				if ( $current_sc && array_key_exists( $current_sc, $cities ) ) {
-					$dropdown_places = $cities[ $current_sc ];
+					$dropdown_cities = $cities[ $current_sc ];
 				} else if ( is_array($cities) &&  isset($cities[0])) {
-					$dropdown_places = array_reduce( $cities, 'array_merge', array() );
-					sort( $dropdown_places );
+					$dropdown_cities = array_reduce( $cities, 'array_merge', array() );
+					sort( $dropdown_cities );
 				} else {
-					$dropdown_places = $cities;
+					$dropdown_cities = $cities;
 				}
 
-				foreach ( $dropdown_places as $city_name ) {
+				foreach ( $dropdown_cities as $city_name ) {
 					if(!is_array($city_name)) {
 						$field .= '<option value="' . esc_attr( $city_name ) . '" '.selected( $value, $city_name, false ) . '>' . $city_name .'</option>';
 					}
@@ -200,39 +200,39 @@ if(in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_o
 			return $field;
 		}
 		/**
-		 * Get places
+		 * Get cities
 		 * @param string $p_code(default:)
 		 * @return mixed
 		 */
-		public function get_places( $p_code = null ) {
-			if ( empty( $this->places ) ) {
-				$this->load_country_places();
+		public function get_cities( $p_code = null ) {
+			if ( empty( $this->cities ) ) {
+				$this->load_country_cities();
 			}
 
 			if ( ! is_null( $p_code ) ) {
-				return isset( $this->places[ $p_code ] ) ? $this->places[ $p_code ] : false;
+				return isset( $this->cities[ $p_code ] ) ? $this->cities[ $p_code ] : false;
 			} else {
-				return $this->places;
+				return $this->cities;
 			}
 		}
 		/**
-		 * Get country places
+		 * Get country cities
 		 * @return mixed
 		 */
-		public function load_country_places() {
+		public function load_country_cities() {
 			global $cities;
 
 			$allowed =  $this->get_store_allowed_countries();
 
 			if ( $allowed ) {
 				foreach ( $allowed as $code => $country ) {
-					if ( ! isset( $cities[ $code ] ) && file_exists( $this->get_plugin_path() . '/places/' . $code . '.php' ) ) {
-						include( $this->get_plugin_path() . '/places/' . $code . '.php' );
+					if ( ! isset( $cities[ $code ] ) && file_exists( $this->get_plugin_path() . '/cities/' . $code . '.php' ) ) {
+						include( $this->get_plugin_path() . '/cities/' . $code . '.php' );
 					}
 				}
 			}
 
-			$this->places = $cities;
+			$this->cities = $cities;
 		}
 
 		/**
@@ -244,7 +244,7 @@ if(in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_o
 				$city_select_path = $this->get_plugin_url() . 'jquery-select/cities-select.js';
 				wp_enqueue_script( 'wc-city-select', $city_select_path, array( 'jquery', 'woocommerce' ), self::VERSION, true );
 
-				$cities = json_encode( $this->get_places() );
+				$cities = json_encode( $this->get_cities() );
 				wp_localize_script( 'wc-city-select', 'wc_city_select_params', array(
 					'cities' => $cities,
 					'i18n_select_city_text' => esc_attr__( 'Select an option&hellip;', 'woocommerce' )
