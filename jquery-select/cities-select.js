@@ -69,7 +69,7 @@ jQuery( function($) {
           $( this ).select2( select2_args );
         });
       };
-  
+      
       wc_city_select_select2();
   
       $( document.body ).bind( 'city_to_select', function() {
@@ -80,6 +80,8 @@ jQuery( function($) {
     /* City select boxes */
     var cities_json = wc_city_select_params.cities.replace( /&quot;/g, '"' );
     var cities = $.parseJSON( cities_json );
+
+    // console.log(cities); /** Cities are loaded */
   
     $( 'body' ).on( 'country_to_state_changing', function(e, country, $container) {
       var $statebox = $container.find( '#billing_state, #shipping_state, #calc_shipping_state' );
